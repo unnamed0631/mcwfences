@@ -19,7 +19,7 @@ All three agree.
 
 - Original: Macaw's Fences and Walls 1.1.2 by Sketch Macaw and Peachy Macaw — MIT.
 - Licence: **MIT**.
-- Port to Horizon by PlexTDM: the Horizon block declarations, the creative tab, the property
+- Port to Horizon by unnamed0631: the Horizon block declarations, the creative tab, the property
   table and the build and verification tooling in this repository.
 - No Mojang file is included. The carried files are the mod's own assets and data;
   `data/minecraft/tags/…` files only add this mod's ids to vanilla tags, and the models name

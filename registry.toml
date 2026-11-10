@@ -21,11 +21,11 @@ to differ.
 This is a content-only port: no native code and no hooks. MIT — the original copyright and
 licence notices are kept in the port repository; see LICENSE and LICENSE-NOTICE.md there.
 """
-authors = ["Sketch Macaw", "Peachy Macaw", "PlexTDM"]
-owners = ["PlexTDM"]
+authors = ["Sketch Macaw", "Peachy Macaw", "unnamed0631"]
+owners = ["unnamed0631"]
 owner_ids = [69778704]
 license = "MIT"
-source = "https://github.com/PlexTDM/mcwfences"
+source = "https://github.com/unnamed0631/mcwfences"
 icon = "icons/mcwfences.png"
 categories = ["decoration"]
 tags = ["port", "fences", "walls", "gates", "hedges", "building", "blocks"]

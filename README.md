@@ -43,5 +43,5 @@ The file is written to `content/target/horizon-mod/mcwfences.hmod`.
 ## Credits and licence
 
 Original mod: [Macaw's Fences and Walls](https://github.com/sketchmacaw/Fences) by Sketch
-Macaw and Peachy Macaw. Horizon port: PlexTDM. Licence: MIT — see [LICENSE](LICENSE); the
+Macaw and Peachy Macaw. Horizon port: unnamed0631. Licence: MIT — see [LICENSE](LICENSE); the
 original notices are preserved in [LICENSE-NOTICE.md](LICENSE-NOTICE.md).
