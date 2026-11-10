@@ -21,6 +21,11 @@ dedicated server; the client-side drawing has not been exercised yet.
   loads with no warnings, adds 4,800 block states and 150 items, fences and walls connect,
   gates face, waterlogging works, the mineable tags apply and the hedge loot table drops its
   item. `tools/test-server.sh` repeats it.
+- Exercised on the client, Nightly 2026-11-08 on an AMD RX 6700 (RADV, Vulkan): the resource
+  bake logs no errors, a test-terrain world meshes 3,687 sections, the hedge, picket fences,
+  gate and pillared wall draw correctly, and page 2 of the creative screen shows the
+  **Macaw's Fences & Walls** tab with its items ([screenshot](screenshots/fences.png),
+  [tab](screenshots/creative-tab.png)).
 
 ## Not yet ported
 
@@ -30,9 +35,6 @@ dedicated server; the client-side drawing has not been exercised yet.
   with a burn time.
 - **One block's shape.** The block built on the mod's own `FenceHitbox` keeps the vanilla
   fence's outline and collision instead of its own.
-- **The client drawing** (blockstate → model → texture bake) is not exercised: this machine
-  has no GPU. `tools/verify.py` checks every model, parent and texture resolves, but that is
-  not a render.
 - **Crafting** parsed without error on the server; no player joined to craft one.
 
 ## Install
