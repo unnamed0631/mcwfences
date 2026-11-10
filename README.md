@@ -24,11 +24,7 @@ stone finishes. They have their own models, textures, names, recipes, drops and 
 ## What doesn't work yet
 
 - **The 11 wired fences don't hurt you.** In the original, walking through one deals 2
-  damage. Hurting entities needs code, not data, so it can't be added by this file: it
-  would take a separate native mod (a small Rust mod built into the game). The blocks
-  themselves are all here, so a native mod could add just the damage.
-
-That is the only known gap.
+  damage. It would take a separate native mod.
 
 ## Install
 
