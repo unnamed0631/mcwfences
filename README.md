@@ -2,8 +2,9 @@
 
 A Horizon port of Macaw's Fences and Walls — MIT.
 
-**Status:** data-tier carry. The blocks, states, drops, recipes, tags and tab work on a
-dedicated server; the client-side drawing has not been exercised yet.
+**Status:** data-tier carry. The blocks, states, drops, recipes, tags and creative tab work on
+a dedicated server and on the client; the three behaviour gaps below are what a native mod
+would add.
 
 ## Implemented so far
 
