@@ -33,9 +33,9 @@ tags = ["port", "fences", "walls", "gates", "hedges", "building", "blocks"]
 # The submission form writes the published version: it uploads the .hmod to the registry's
 # staging release and pins its SHA-256 here. This block is the draft it replaces.
 [[versions]]
-version = "1.1.2"
+version = "1.0"
 published = "2026-11-10"
 game = "26.3"
 file = "mcwfences.hmod"
-sha256 = "e83d792951d5f2d4c2f57dfe453861dc5ee4cee564e7feb8eabb10cbdae7eb70"
+sha256 = "082d03d5fa666d36e9a5cd14cbc5ff3b94c8f4299ee0af3609ae5c4a64e333a2"
 changelog = "First release: all 150 blocks, 192 recipes, 150 loot tables and five language files."

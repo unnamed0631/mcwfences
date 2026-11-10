@@ -4,7 +4,7 @@
 # MIT models, blockstates, recipes, loot tables, tags and language files.
 id = "mcwfences"
 name = "Macaw's Fences and Walls"
-version = "1.1.2"
+version = "1.0"
 description = "Picket, stockade, horse and wired fences, highley and pyramid gates, modern railing and pillared walls, grass-topped walls and leaf hedges in eleven woods and a range of stone finishes"
 authors = ["Sketch Macaw", "Peachy Macaw"]
 api = "0.2"
