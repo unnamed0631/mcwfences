@@ -1,23 +1,24 @@
 id = "mcwfences"
 kind = "mod"
 name = "Macaw's Fences and Walls"
-summary = "All 150 of Macaw's Fences and Walls — hedges, fences, gates and walls in eleven woods and thirteen stone sets."
+summary = "All 150 of Macaw's Fences and Walls — hedges, fences, gates and walls in eleven woods and a range of stone finishes."
 description = """
 A port of [Macaw's Fences and Walls](https://github.com/sketchmacaw/Fences) 1.1.2 by
 Sketch Macaw and Peachy Macaw for Horizon: 150 blocks — 10 leaf hedges, 47 fences (picket,
 stockade, horse and wired), 37 gates (highley, pyramid and railing) and 56 walls (modern,
-railing, pillared and grass-topped) — in eleven woods and thirteen stone sets.
+railing, pillared and grass-topped) — in eleven woods and a range of stone finishes.
 
-- Every block keeps its upstream blockstate, model, texture, item model, name, loot table
-  and tags, with hardness, blast resistance, sounds, map colour and the pickaxe requirement
-  read from the mod's own source.
+- Every block keeps the original mod's blockstate, model, texture, item model, name, loot
+  table and tags, with hardness, blast resistance, sounds, map colour and the pickaxe
+  requirement read from the original's own source.
 - The 192 recipes (150 crafting, 42 stonecutting) and five language files are the mod's own.
 
-Not carried, as each needs native code: the 11 wired fences deal no damage (upstream they hurt
-for 2.0), the 79 wooden fence items do not burn in a furnace, and one block's own hitbox keeps
-the vanilla fence's shape. Nothing else is known to differ.
+Not carried, as it needs native code: the 11 wired fences deal no damage (the original hurts
+for 2.0). Everything else is here: the hedges and grass-topped walls keep their own outline
+shape, the wooden fences burn in a furnace, and crafting and drops work. Nothing else is known
+to differ.
 
-This is a data-tier carry: no native code and no hooks. MIT — the original copyright and
+This is a content-only port: no native code and no hooks. MIT — the original copyright and
 licence notices are kept in the port repository; see LICENSE and LICENSE-NOTICE.md there.
 """
 authors = ["Sketch Macaw", "Peachy Macaw", "PlexTDM"]
@@ -36,5 +37,5 @@ version = "1.1.2"
 published = "2026-11-10"
 game = "26.3"
 file = "mcwfences.hmod"
-sha256 = "bae40ac4540f2094466d5dc6133137f994b0905a7533bb97bd810643395962e0"
+sha256 = "e83d792951d5f2d4c2f57dfe453861dc5ee4cee564e7feb8eabb10cbdae7eb70"
 changelog = "First release: all 150 blocks, 192 recipes, 150 loot tables and five language files."

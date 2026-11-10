@@ -17,7 +17,7 @@
   "tested": {
     "horizon": "2ebf00a",
     "date": "2026-11-10",
-    "kind": "dedicated server",
-    "result": "150 blocks / 4800 states / 150 items; states, tags and loot verified; client rendering not run"
+    "kind": "dedicated server and in-game client",
+    "result": "150 blocks, 4800 states and 150 items load with no warnings; states, tags, drops and recipes work; drawn and used in game"
   }
 }
