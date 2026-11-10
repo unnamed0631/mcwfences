@@ -1,0 +1,7 @@
+{
+  "template": "minecraft:oak_fence",
+  "properties": {
+    "explosion_resistance": 2.5,
+    "hardness": 1.5
+  }
+}

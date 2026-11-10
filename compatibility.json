@@ -1,0 +1,17 @@
+{
+  "game": "26.3",
+  "horizon_revision": "8933e8c2d81bef1549a63dc1c8341ca46fe3cffa",
+  "horizon_repository": "https://github.com/horizon-rust/horizon",
+  "artifact": "content",
+  "native": false,
+  "api": "0.2",
+  "upstream": {
+    "name": "Macaw's Fences and Walls",
+    "version": "1.1.2",
+    "file": "mcw-fences-1.1.2-mc1.21.1neoforge.jar",
+    "sha1": "2a339b168ac73c343c6d8fa7bb0710bc381fb70d",
+    "sha256": "df910e49fe1c395bc8c7124060162424d675e44d5207357139b2e5342846475f",
+    "repository": "https://github.com/sketchmacaw/Fences",
+    "license": "MIT"
+  }
+}

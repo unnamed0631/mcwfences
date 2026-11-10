@@ -1,0 +1,7 @@
+{
+	"parent": "mcwfences:block/parent/inventory/pillar_wall",
+	"textures": {
+		"1": "minecraft:block/quartz_block_top",
+		"wall": "minecraft:block/quartz_bricks"
+	}
+}

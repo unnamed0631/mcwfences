@@ -1,0 +1,40 @@
+id = "mcwfences"
+kind = "mod"
+name = "Macaw's Fences and Walls"
+summary = "All 150 of Macaw's Fences and Walls — hedges, fences, gates and walls in eleven woods and thirteen stone sets."
+description = """
+A port of [Macaw's Fences and Walls](https://github.com/sketchmacaw/Fences) 1.1.2 by
+Sketch Macaw and Peachy Macaw for Horizon: 150 blocks — 10 leaf hedges, 47 fences (picket,
+stockade, horse and wired), 37 gates (highley, pyramid and railing) and 56 walls (modern,
+railing, pillared and grass-topped) — in eleven woods and thirteen stone sets.
+
+- Every block keeps its upstream blockstate, model, texture, item model, name, loot table
+  and tags, with hardness, blast resistance, sounds, map colour and the pickaxe requirement
+  read from the mod's own source.
+- The 192 recipes (150 crafting, 42 stonecutting) and five language files are the mod's own.
+
+Not carried, as each needs native code: the 11 wired fences deal no damage (upstream they hurt
+for 2.0), the 79 wooden fence items do not burn in a furnace, and one block's own hitbox keeps
+the vanilla fence's shape. Nothing else is known to differ.
+
+This is a data-tier carry: no native code and no hooks. MIT — the original copyright and
+licence notices are kept in the port repository; see LICENSE and LICENSE-NOTICE.md there.
+"""
+authors = ["Sketch Macaw", "Peachy Macaw", "PlexTDM"]
+owners = ["PlexTDM"]
+owner_ids = [69778704]
+license = "MIT"
+source = "https://github.com/PlexTDM/mcwfences"
+icon = "icons/mcwfences.png"
+categories = ["decoration"]
+tags = ["port", "fences", "walls", "gates", "hedges", "building", "blocks"]
+
+# The submission form writes the published version: it uploads the .hmod to the registry's
+# staging release and pins its SHA-256 here. This block is the draft it replaces.
+[[versions]]
+version = "1.1.2"
+published = "2026-11-10"
+game = "26.3"
+file = "mcwfences.hmod"
+sha256 = "bae40ac4540f2094466d5dc6133137f994b0905a7533bb97bd810643395962e0"
+changelog = "First release: all 150 blocks, 192 recipes, 150 loot tables and five language files."

@@ -1,0 +1,12 @@
+# Port-owned content mod for Macaw's Fences and Walls 1.1.2 (1.21.1 NeoForge),
+# carried to Minecraft 26.3 / Horizon: 150 fence, gate, wall and hedge blocks on
+# the vanilla oak-fence and oak-fence-gate templates, with the upstream mod's own
+# MIT models, blockstates, recipes, loot tables, tags and language files.
+id = "mcwfences"
+name = "Macaw's Fences and Walls"
+version = "1.1.2"
+description = "Picket, stockade, horse and wired fences, highley and pyramid gates, modern railing and pillared walls, grass-topped walls and leaf hedges in eleven woods and thirteen stones"
+authors = ["Sketch Macaw", "Peachy Macaw"]
+api = "0.2"
+side = "both"
+capabilities = ["registries"]
