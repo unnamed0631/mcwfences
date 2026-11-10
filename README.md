@@ -38,6 +38,34 @@ Nothing else is known to differ.
    `options.txt`.
 3. Mods are off by default: enable it in Options > Mods.
 
+## Tested on the game
+
+- **Dedicated server**, Horizon Nightly 2026-11-07 (`2ebf00a`), prepared 26.3
+  resources: the mod loads with no warnings, `40523` block states and `1808` items
+  (vanilla `35723`/`1658` plus this mod's `4800`/`150`).
+- Placing and connecting: a fence connects east to its neighbour and not north, a
+  pillared wall connects east, a gate takes `facing=north`, and `waterlogged` can be
+  set and read back.
+- Tags: the fences are in `minecraft:fences` and the stone walls in
+  `minecraft:mineable/pickaxe`.
+- Loot: `loot spawn … loot mcwfences:blocks/oak_hedge` drops one `mcwfences:oak_hedge`
+  named "Oak Hedge", so the table and the language file work.
+- The compiled block table has the upstream hardness and tool rule: `stone_pillar_wall`
+  is 2.0 and needs a pickaxe, `oak_hedge` is 0.2, `oak_picket_fence` is 1.4.
+
+`tools/test-server.sh` repeats this on any Horizon build:
+
+```sh
+HORIZON_CLIENT=…/horizon-client HORIZON_RESOURCES=…/.local/horizon-client/26.3 \
+    bash tools/test-server.sh
+```
+
+**Not tested:** the client-side drawing (blockstate/model/texture bake) — this machine
+has no GPU or display, so the mod ran on the dedicated server only. `tools/verify.py`
+checks that every model, parent and texture the client would load resolves, but that is
+not a render. The recipes were parsed without error by the server; none were crafted
+(no player). The creative tab is client-only and was not opened.
+
 ## Build
 
 `content/` is the whole mod: `horizon-mod.toml`, `assets/` and `data/`.
@@ -59,6 +87,7 @@ cargo horizon-mod check target/horizon-mod/mcwfences.hmod   # the registry's che
 | `tools/verify.py` | structural checks the registry's file check cannot see |
 | `tools/properties.json` | the upstream hardness, blast resistance, sounds and tool rule per block |
 | `tools/carry.sh` | how the jar was carried, and the patches applied after |
+| `tools/test-server.sh` | runs the mod on a real dedicated server and asserts its blocks, tags and loot |
 | `compatibility.json` | the Horizon revision this was built and checked on, and the upstream pins |
 
 ## Licence

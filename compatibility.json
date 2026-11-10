@@ -13,5 +13,11 @@
     "sha256": "df910e49fe1c395bc8c7124060162424d675e44d5207357139b2e5342846475f",
     "repository": "https://github.com/sketchmacaw/Fences",
     "license": "MIT"
+  },
+  "tested": {
+    "horizon": "2ebf00a",
+    "date": "2026-11-10",
+    "kind": "dedicated server",
+    "result": "150 blocks / 4800 states / 150 items; states, tags and loot verified; client rendering not run"
   }
 }
