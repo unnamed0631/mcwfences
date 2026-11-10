@@ -24,3 +24,10 @@ All three agree.
 - No Mojang file is included. The carried files are the mod's own assets and data;
   `data/minecraft/tags/…` files only add this mod's ids to vanilla tags, and the models name
   vanilla textures, as the original's do.
+
+## The icon
+
+`icon.png` is the original mod's own project icon, the artwork its CurseForge and Modrinth
+pages use ([Modrinth](https://modrinth.com/mod/macaws-fences-and-walls)), reproduced under the
+same MIT licence. It is not drawn for this port. The jar's `fenceslogo.png` is a 900×150
+banner, which the registry's square-icon rule does not take.
