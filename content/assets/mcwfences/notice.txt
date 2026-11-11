@@ -1,0 +1,19 @@
+Macaw's Fences and Walls - licence notice
+
+Original mod: Macaw's Fences and Walls 1.1.2 by Sketch Macaw and Peachy Macaw
+  https://github.com/sketchmacaw/Fences
+
+Licence: MIT. It was read in three places that agree:
+  - the source repository's LICENSE.md: "MIT License", "Copyright (c) 2022 Kaupenjoe";
+  - the NeoForge jar mcw-fences-1.1.2-mc1.21.1neoforge.jar, whose
+    META-INF/neoforge.mods.toml declares license="MIT" and
+    authors="Sketch Macaw & Peachy Macaw";
+  - its Modrinth page, which lists MIT.
+
+Port: unnamed0631, 2026. The Horizon block declarations, the creative tab and the
+hardness/sounds/tool table are the port's; the blockstates, models, textures,
+recipes, loot tables, tags and language files are the original mod's, carried
+under its MIT licence.
+
+No Minecraft, Mojang or Microsoft file is included. The models name vanilla
+textures, as the original's do, and the player's own game provides them.

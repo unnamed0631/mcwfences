@@ -18,8 +18,11 @@ for 2.0). Everything else is here: the hedges and grass-topped walls keep their 
 shape, the wooden fences burn in a furnace, and crafting and drops work. Nothing else is known
 to differ.
 
+The full MIT licence and copyright notice are inside the .hmod too
+(assets/mcwfences/license.txt and notice.txt), so every downloaded copy carries them.
+
 This is a content-only port: no native code and no hooks. MIT — the original copyright and
-licence notices are kept in the port repository; see LICENSE and LICENSE-NOTICE.md there.
+licence notices are also kept in the port repository; see LICENSE and LICENSE-NOTICE.md.
 """
 authors = ["Sketch Macaw", "Peachy Macaw", "unnamed0631"]
 owners = ["unnamed0631"]
@@ -33,9 +36,9 @@ tags = ["port", "fences", "walls", "gates", "hedges", "building", "blocks"]
 # The submission form writes the published version: it uploads the .hmod to the registry's
 # staging release and pins its SHA-256 here. This block is the draft it replaces.
 [[versions]]
-version = "1.0.0"
+version = "1.0.1"
 published = "2026-11-10"
 game = "26.3"
 file = "mcwfences.hmod"
-sha256 = "30253e89dd738022f4843ef59f6a0909e96f615ea8f2eeaf055fcb1fcad859ce"
-changelog = "First release: all 150 blocks, 192 recipes, 150 loot tables and five language files."
+sha256 = "2613024a492f3a566eedd94c5218876271ded4506871e97a5f4474cf7932ee4b"
+changelog = "Include the full MIT licence and copyright notice inside the .hmod, so the licence travels with every copy."

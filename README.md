@@ -26,6 +26,9 @@ stone finishes. They have their own models, textures, names, recipes, drops and 
 - **The 11 wired fences don't hurt you.** In the original, walking through one deals 2
   damage. It would take a separate native mod.
 
+The full MIT licence and notice are inside the `.hmod` as well
+(`assets/mcwfences/license.txt`, `notice.txt`), so they travel with every copy.
+
 ## Install
 
 Put `mcwfences.hmod` in the `horizon-mods` folder of your game folder (the one with
